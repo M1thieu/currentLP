@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwlqjll7b3g48"]
+
+[ext_resource type="Script" path="res://assets/scripts/animalia/mephitidae.gd" id="1_jtma4"]
+
+[node name="Mephitidae" type="CharacterBody2D"]
+script = ExtResource("1_jtma4")

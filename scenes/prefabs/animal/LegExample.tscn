@@ -1,0 +1,90 @@
+[gd_scene load_steps=12 format=3 uid="uid://bc312oo0mdhhm"]
+
+[ext_resource type="Script" path="res://assets/scenes/prefabs/animal/example.gd" id="2_44ifa"]
+[ext_resource type="PackedScene" uid="uid://dji4uebw4dpar" path="res://assets/scenes/prefabs/animal/IK_legs/FABRIK_leg.tscn" id="3_1kxoj"]
+[ext_resource type="Script" path="res://assets/scripts/body/FABRIK_leg_logic.gd" id="3_7r0n8"]
+[ext_resource type="Script" path="res://assets/scripts/body/FABRIK_leg_info.gd" id="4_orvbi"]
+[ext_resource type="Texture2D" uid="uid://c7ojmoceusp6r" path="res://assets/rendering/sprites/animalia/ant/upper_leg.png" id="5_caj4r"]
+[ext_resource type="Texture2D" uid="uid://chr36rugl5rfg" path="res://assets/rendering/sprites/animalia/ant/lower_leg.png" id="6_f07y2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yfmhs"]
+size = Vector2(92.9626, 80.7133)
+
+[sub_resource type="Resource" id="Resource_t68wk"]
+script = ExtResource("4_orvbi")
+texture = ExtResource("5_caj4r")
+magnet = Vector2(0, -3)
+
+[sub_resource type="Resource" id="Resource_615hj"]
+script = ExtResource("4_orvbi")
+texture = ExtResource("5_caj4r")
+magnet = Vector2(0, -6)
+
+[sub_resource type="Resource" id="Resource_g36as"]
+script = ExtResource("4_orvbi")
+texture = ExtResource("6_f07y2")
+magnet = Vector2(0, -3)
+
+[sub_resource type="Resource" id="Resource_omggb"]
+script = ExtResource("3_7r0n8")
+leg_template = Array[ExtResource("4_orvbi")]([SubResource("Resource_t68wk"), SubResource("Resource_615hj"), SubResource("Resource_g36as")])
+target_forward_max_reach = 30.0
+target_backwards_max_reach = 20.0
+limb_reposition_speed = 0.1
+leg_maximum_height = 20.0
+
+[node name="LegExample" type="Node2D"]
+position = Vector2(-12, -2)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+top_level = true
+zoom = Vector2(3, 3)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+top_level = true
+position = Vector2(3, 12)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-2, 84)
+shape = SubResource("RectangleShape2D_yfmhs")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(3, -99)
+shape = SubResource("RectangleShape2D_yfmhs")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(84, 38)
+rotation = -1.02199
+shape = SubResource("RectangleShape2D_yfmhs")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(82, -59)
+rotation = 0.958746
+shape = SubResource("RectangleShape2D_yfmhs")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-79, 45)
+rotation = 0.948374
+shape = SubResource("RectangleShape2D_yfmhs")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-85, -52)
+rotation = 2.1335
+shape = SubResource("RectangleShape2D_yfmhs")
+
+[node name="Creature" type="Node2D" parent="."]
+position = Vector2(7, 0)
+script = ExtResource("2_44ifa")
+leg_logic = SubResource("Resource_omggb")
+
+[node name="ColorRect" type="ColorRect" parent="Creature"]
+offset_left = -1.0
+offset_right = 12.0
+offset_bottom = 12.0
+
+[node name="FABRIKLeg" parent="Creature/ColorRect" instance=ExtResource("3_1kxoj")]
+position = Vector2(6, 6)
+background_leg = true
+
+[node name="FABRIKLeg2" parent="Creature/ColorRect" instance=ExtResource("3_1kxoj")]
+position = Vector2(6, 6)
