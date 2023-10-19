@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://dji4uebw4dpar"]
+
+[ext_resource type="Script" path="res://assets/scripts/body/FABRIK_leg.gd" id="1_1815n"]
+
+[node name="FABRIKLeg" type="Skeleton2D"]
+script = ExtResource("1_1815n")
+
+[node name="GroundRaycast" type="RayCast2D" parent="."]
+unique_name_in_owner = true
+target_position = Vector2(0, 30)
+hit_from_inside = true
+
+[node name="Target" type="Marker2D" parent="."]
+unique_name_in_owner = true
+top_level = true
+position = Vector2(1, 8)
+
+[node name="ColorRect" type="ColorRect" parent="Target"]
+visible = false
+offset_right = 1.0
+offset_bottom = 1.0

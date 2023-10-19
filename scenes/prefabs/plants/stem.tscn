@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0gsm4cvkwrw7"]
+
+[ext_resource type="Script" path="res://assets/scripts/plantae/stem.gd" id="1_301pq"]
+
+[node name="Stem" type="Node2D"]
+script = ExtResource("1_301pq")
+
+[node name="Skeleton2D" type="Skeleton2D" parent="."]
+
+[node name="Points" type="Node2D" parent="."]
+
+[node name="MidPoint" type="Marker2D" parent="Points"]
+
+[node name="TopPoint" type="Marker2D" parent="Points"]
+
+[node name="Line2D" type="Line2D" parent="."]
