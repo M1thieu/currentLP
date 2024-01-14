@@ -1,56 +1,56 @@
 # Contributors Guidelines
 
-This document summarizes the most important points for people interested in
-contributing to LP, especially via bug reports or feature requests.
-
+This document outlines essential information for individuals interested in contributing to LP, covering bug reports, feature proposals, pull requests, translations, and effective communication with developers.
 
 ## Table of Contents
 
 - [Reporting Bugs](#reporting-bugs)
 - [Proposing Features or Improvements](#proposing-features-or-improvements)
 - [Contributing Pull Requests](#contributing-pull-requests)
-- [Contributing to Godot Translations](#contributing-to-godot-translations)
 - [Communicating with Developers](#communicating-with-developers)
 
-# Reporting Bugs
+## Reporting Bugs
 
-fzfe
-zefzef
-zefzefe
-zefzef
+If you come across any bugs or unexpected behavior, help us by providing detailed bug reports. Follow these steps:
 
-# Proposing Features or Improvements
+1. **Check Existing Issues:** Look through existing issues to ensure your bug hasn't been reported before.
 
-zfzefze
+2. **Provide Reproduction Steps:** Clearly outline the steps to reproduce the bug.
 
-zzefzef
-ezfezfze
-adzfeez
-azdzd
-efazf>
+3. **Include System Information:** Specify your operating system, LP version, and any other relevant details.
 
-afa
-afa
-aafaa
-afa
-azda
-ada
-af
-efzef
-# Contributing Pull Requests
+4. **Attach Screenshots or Code Snippets:** If applicable, provide visuals or code snippets that demonstrate the issue.
 
-fzfefe
+## Proposing Features or Improvements
 
-zefzef
+For feature requests or enhancement ideas:
 
-zefz
+1. **Check Existing Features:** Verify that your proposal hasn't been discussed or suggested before.
 
-# Contributing to Godot Translations
+2. **Clearly Describe the Proposal:** Clearly articulate the new feature or improvement, including its purpose and potential benefits.
 
-zefefze
-zefzfe
+3. **Provide Mockups or Examples:** Include any visual aids or examples that can help the development team understand your proposal better.
 
-# Communicating with Developers
+## Contributing Pull Requests
 
-zafzef
-zefzef
+Before submitting a pull request:
+
+1. **Discuss the Change:** Open an issue to discuss significant changes before starting any development work.
+
+2. **Follow Code Standards:** Ensure your code adheres to LP's coding standards.
+
+3. **Provide Unit Tests:** Include relevant unit tests for new features or changes.
+
+4. **Document Changes:** Update documentation to reflect any modifications made.
+
+## Communicating with Developers
+
+Effective communication is crucial:
+
+1. **Use Clear and Concise Language:** Clearly express your thoughts and concerns.
+
+2. **Participate in Discussions:** Engage in relevant discussions and provide constructive feedback.
+
+3. **Respect Diverse Opinions:** Acknowledge and respect diverse opinions and perspectives.
+
+Remember, your contributions and feedback are valued, and together, we can make LP better!
