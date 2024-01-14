@@ -6,8 +6,8 @@ We would like to extend our heartfelt thanks to the following individuals who ha
 
 ## Contributors
 
-[Mathieu](https://github.com/m1thieu)
-   - GitHub: [@m1thieu](https://github.com/m1thieu)
+<!-- CONTRIBUTORS-LIST:START -->
+<!-- CONTRIBUTORS-LIST:END -->
 
 ---
 
