@@ -1,5 +1,5 @@
 # LP (Life's Progress)
-
+![LP](/logo.png)
 
 A systemic 2D platformer within a dynamic living ecosystem. Explore interconnected systems in this open-world game.
 
