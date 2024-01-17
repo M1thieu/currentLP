@@ -23,4 +23,5 @@ Contributions to LP are welcome! Whether you're interested in reporting bugs, pr
 
 Join our community [on Discord](https://discord.gg/u2J25aGy8c) to engage with other contributors and stay updated on the latest developments. Check out our [Code of Conduct](.github/code_of_conduct.md) for a positive and inclusive community.
 
-D
+
+DDD
