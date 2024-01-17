@@ -17,7 +17,7 @@ A systemic 2D platformer within a dynamic living ecosystem. Explore interconnect
 
 ## Contributing
 
-Contributions to LP are welcome! Whether you're interested in reporting bugs, proposing new features, or contributing code, check out our [Contributing Guidelines](CONTRIBUTING.md) for more information.
+Contributions to LP are welcome! Whether you're interested in reporting bugs, proposing new features, or contributing code, check out our [Contributing Guidelines](.github/contributing.md) for more information.
 
 ## Community
 
