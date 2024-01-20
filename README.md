@@ -3,14 +3,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/M1thieu/currentLP">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+    <a href="https://github.com/M1thieu/currentLP">
+    <img src="/logo.png" alt="Logo" width="80" height="80">
+    </a>
 
-  <h3 align="center">Life's Progress</h3>
+    <h3 align="center">Life's Progress</h3>
 
-  <p align="center">
+    <p align="center">
     A systemic 2D platformer within a dynamic living ecosystem. 
+    </p>
+</div>
 
 ## Table of Contents
 - [Features](#features)
