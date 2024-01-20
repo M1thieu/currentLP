@@ -15,6 +15,7 @@
 - [Features](#features)
 - [Contributing](#contributing)
 - [Community](#community)
+<details>
 
 ## Features
 
