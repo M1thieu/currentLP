@@ -1,7 +1,16 @@
-# LP (Life's Progress)
-![LP](/logo.png)
+![Discord](https://img.shields.io/discord/1177787606432489564)
 
-A systemic 2D platformer within a dynamic living ecosystem. Explore interconnected systems in this open-world game.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/M1thieu/currentLP">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Life's Progress</h3>
+
+  <p align="center">
+    A systemic 2D platformer within a dynamic living ecosystem. 
 
 ## Table of Contents
 - [Features](#features)
