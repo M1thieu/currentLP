@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a bug in Godot
+description: Report a bug in LP
 body:
 
 - type: markdown
@@ -8,21 +8,20 @@ body:
       When reporting bugs, please follow the guidelines in this template. This helps identify the problem precisely and thus enables contributors to fix it faster.
       - Write a descriptive issue title above.
       - The golden rule is to **always open *one* issue for *one* bug**. If you notice several bugs and want to report them, make sure to create one new issue for each of them.
-      - Search [open](https://github.com/M1thieu/currentLP/issues) and [closed](https://github.com/M1thieu/currentLP/issues?q=is%3Aissue+is%3Aclosed) issues to ensure it has not already been reported. If you don't find a relevant match or if you're unsure, don't hesitate to **open a new issue**. The bugsquad will handle it from there if it's a duplicate.
+      - Search [open issues](https://github.com/M1thieu/currentLP/issues) and [closed issues](https://github.com/M1thieu/currentLP/issues?q=is%3Aissue+is%3Aclosed) to ensure it has not already been reported. If you don't find a relevant match or if you're unsure, don't hesitate to **open a new issue**. The bugsquad will handle it from there if it's a duplicate.
       - Please always check if your issue is reproducible in the latest version – it may already have been fixed!
 
 - type: textarea
   attributes:
     label: Tested versions
     description: |
-      To properly fix a bug, we need to identify if the bug was recently introduced in the engine, or if it was always present.
-      - Please specify the Godot version you found the issue in, including the **Git commit hash** if using a development or non-official build. The exact Godot version (including the commit hash) can be copied by clicking the version shown in the editor (bottom bar) or in the project manager (top bar).
-      - If you can, **please test earlier Godot versions** (previous stable branch, and development snapshots of the current feature release) and, if applicable, newer versions (development snapshots for the next feature release). Mention whether the bug is reproducible or not in the versions you tested. You can find all Godot releases in our [download archive](https://godotengine.org/download/archive/).
-      - The aim is for us to identify whether a bug is a **regression**, i.e. an issue that didn't exist in a previous version, but was introduced later on, breaking existing functionality. For example, if a bug is reproducible in 4.2.stable but not in 4.1.stable, we would like you to test intermediate 4.2 dev and beta snapshots to find which snapshot is the first one where the issue can be reproduced.
+      To properly fix a bug, we need to identify if the bug was recently introduced in the LP project or if it has been present from the beginning.
+      - Specify the LP version you found the issue in. If you are using a specific build, include relevant details.
+      - If you can, **please test earlier LP versions** and, if applicable, newer versions. Mention whether the bug is reproducible or not in the versions you tested.
     placeholder: |
 
-      - Reproducible in: 4.3.dev [d76c1d0e5], 4.2.stable, 4.2.dev5 and later 4.2 snapshots.
-      - Not reproducible in: 4.1.3.stable, 4.2.dev4 and earlier 4.2 snapshots.
+      - Reproducible in: v1.0, v1.1
+      - Not reproducible in: v0.9
   validations:
     required: true
 
@@ -30,9 +29,9 @@ body:
   attributes:
     label: System information
     description: |
-      - Specify the OS version, and when relevant hardware information.
+      - Specify the OS version, and when relevant, hardware information.
       - For issues that are likely OS-specific and/or graphics-related, please specify the CPU model and architecture.
-    placeholder: Windows 10 - Godot v4.0.3.stable - Vulkan (Forward+) - dedicated NVIDIA GeForce GTX 970 (nvidia, 510.85.02) - Intel Core i7-10700KF CPU @ 3.80GHz (16 Threads)
+    placeholder: Windows 10 - LP v1.0 - dedicated GPU NVIDIA GeForce GTX 970 - Intel Core i7-10700KF CPU @ 3.80GHz (16 Threads)
   validations:
     required: true
 
@@ -49,7 +48,7 @@ body:
   attributes:
     label: Steps to reproduce
     description: |
-      List of steps or sample code that reproduces the issue. Having reproducible issues is a prerequisite for contributors to be able to solve them.
-      If you include a minimal reproduction project below, you can detail how to use it here.
+      List the steps or sample code that reproduces the issue. Having reproducible issues is a prerequisite for contributors to be able to solve them.
+      If you include a minimal reproduction project below, detail how to use it here.
   validations:
     required: true
