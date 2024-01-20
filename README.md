@@ -24,8 +24,8 @@
 
 ## Contributing
 
-Welcome to contribute to LP! Whether it's reporting bugs, proposing new features, or contributing code, check out our [Contributing Guidelines](.github/contributing.md) for more information.
+Contributions to LP are welcome! Whether it's reporting bugs, proposing new features, or contributing code, check out our [Contributing Guidelines](.github/contributing.md) for more information.
 
 ## Community
 
-Join our community [on Discord](https://discord.gg/u2J25aGy8c) to engage with contributors and stay updated on the latest developments. Review our [Code of Conduct](.github/code_of_conduct.md) for a positive and inclusive community.
+Join our community [on Discord](https://discord.gg/u2J25aGy8c) to engage with other contributors and stay updated on the latest developments. Check out our [Code of Conduct](.github/code_of_conduct.md) for a positive and inclusive community.
