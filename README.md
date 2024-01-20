@@ -12,7 +12,7 @@
 
 <details>
     <summary> <strong> Table of Contents </strong> </summary>
-    
+
 - [Features](#features)
 - [Contributing](#contributing)
 - [Community](#community)
@@ -23,7 +23,6 @@
 - Realistic ecosystem simulation.
 - Open-world exploration in a 2D platformer.
 - Educational gameplay focusing on ecosystem interactions.
-- Customizable and interchangeable elements for a unique gaming experience.
 
 ## Contributing
 
