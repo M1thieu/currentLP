@@ -10,7 +10,8 @@
   </p>
 </p>
 
-## Table of Contents
+<details>
+    <summary> <strong> Table of Contents </strong> </summary>
 - [Features](#features)
 - [Contributing](#contributing)
 - [Community](#community)
