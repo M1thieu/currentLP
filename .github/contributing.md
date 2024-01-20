@@ -13,7 +13,7 @@ This document outlines essential information for individuals interested in contr
 
 If you come across any bugs or unexpected behavior, help us by providing detailed bug reports. Follow these steps:
 
-1. **Check Existing Issues:** Look through existing issues to ensure your bug hasn't been reported before.
+1. **Check Existing Issues:** Look through existing [bug reports](https://github.com/erematorg/LP/issues?q=is%3Aissue+is%3Aopen+label%3Abug) to ensure your bug hasn't been reported before.
 
 2. **Provide Reproduction Steps:** Clearly outline the steps to reproduce the bug.
 
@@ -25,7 +25,7 @@ If you come across any bugs or unexpected behavior, help us by providing detaile
 
 For feature requests or enhancement ideas:
 
-1. **Check Existing Features:** Verify that your proposal hasn't been discussed or suggested before.
+1. **Check Existing Features:** Verify that your proposal hasn't been discussed or suggested before in the [feature requests](https://github.com/erematorg/LP/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement).
 
 2. **Clearly Describe the Proposal:** Clearly articulate the new feature or improvement, including its purpose and potential benefits.
 

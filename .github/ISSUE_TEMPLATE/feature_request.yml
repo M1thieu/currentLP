@@ -9,7 +9,7 @@ body:
       - Write a descriptive title above.
       - Clearly describe the problem or need that this feature aims to address.
       - If you have multiple feature suggestions, create a new request for each to maintain clarity.
-      - Search [open issues](https://github.com/M1thieu/currentLP/issues) to ensure a similar feature request has not already been submitted. If you don't find a relevant match or if you're unsure, feel free to **open a new request**.
+      - Search [open issues](https://github.com/erematorg/LP/issues) to ensure a similar feature request has not already been submitted. If you don't find a relevant match or if you're unsure, feel free to **open a new request**.
 
 - type: textarea
   attributes:

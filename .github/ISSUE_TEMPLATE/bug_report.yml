@@ -8,7 +8,7 @@ body:
       When reporting bugs, please follow the guidelines in this template. This helps identify the problem precisely and thus enables contributors to fix it faster.
       - Write a descriptive issue title above.
       - The golden rule is to **always open *one* issue for *one* bug**. If you notice several bugs and want to report them, make sure to create one new issue for each of them.
-      - Search [open issues](https://github.com/M1thieu/currentLP/issues) and [closed issues](https://github.com/M1thieu/currentLP/issues?q=is%3Aissue+is%3Aclosed) to ensure it has not already been reported. If you don't find a relevant match or if you're unsure, don't hesitate to **open a new issue**. The bugsquad will handle it from there if it's a duplicate.
+      - Search [open issues](https://github.com/erematorg/LP/issues) and [closed issues](https://github.com/erematorg/LP/issues?q=is%3Aissue+is%3Aclosed) to ensure it has not already been reported. If you don't find a relevant match or if you're unsure, don't hesitate to **open a new issue**. The bugsquad will handle it from there if it's a duplicate.
       - Please always check if your issue is reproducible in the latest version – it may already have been fixed!
 
 - type: textarea
