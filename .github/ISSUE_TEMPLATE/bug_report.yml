@@ -1,5 +1,5 @@
 name: Bug report
-about: Report a bug in Godot
+description: Report a bug in Godot
 body:
 
 - type: markdown
